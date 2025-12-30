@@ -77,7 +77,7 @@
 ````
    Route::rosource( ' ' ,  ::class) -> middleware('auth');
 ````
-###some syntax have to write :
+### some syntax have to write :
 ````laravel
     @auth
     @endauth

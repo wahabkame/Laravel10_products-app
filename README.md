@@ -16,11 +16,11 @@
  php artisun make:controller ' ' --resource --model=' ' 
  ````
 
-resource : index , edit, show, delete , create
+ resource : index , edit, show, delete , create
 
 ### 3- inherit 
 ````laravel
- @yield(' ')
+@yield(' ')
 @extends(' folder name. file name ')
 @section (' ')
 @endSection

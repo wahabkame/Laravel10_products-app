@@ -76,12 +76,12 @@
 3- you can make it in router (web.php):
 ````
    Route::rosource( ' ' ,  ::class) -> middleware('auth');
-```` 
+````
+###some syntax have to write :
 ````laravel
-some syntax have to write :
     @auth
     @endauth
-     Auth::routes();
+    Auth::routes();
 ````
 
 -----------------------------------------------------------------

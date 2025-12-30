@@ -43,12 +43,12 @@
    .Session::get
    @csrf
    .links()
-    .dd
-    @method('PUT')
-    @method('DELETE')
-    ->any()
-    ->all()
-    {{ !!   !!}}
+   .dd
+   @method('PUT')
+   @method('DELETE')
+   ->any()
+   ->all()
+   {{ !!   !!}}
 ````
 
 -----------------------------------------------------------------

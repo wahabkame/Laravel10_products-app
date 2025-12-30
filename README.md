@@ -87,8 +87,11 @@
 -----------------------------------------------------------------
 ## to understand the structure of the projects: 
  1- we make two models ( user , products ) user have three inputs ( name , password , email ) products have three input ( name ,image, details).
+ 
  2- we make two controllers : productscontroller , authusercontroller.
+ 
  3- we also have to upload the images.
+ 
  4- we make CRUD (Store, index , Edit , Update) we use Resources.
 
 
